@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOT landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="aot/css/aot.css">
+</head>
+<body>
+
+    <header>
+
+        <a href="#" class="logo"><span>AOT</span>Info</a>
+        
+    
+        <div id="menu" class="fas fa-bars"></div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">home</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#movies">seasons</a></li>
+                <li><a href="#product">product</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <!-- HOME SECTION STARTS HERE -->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Attack On Titan info</h3>
+                <h1>welcome AOT fans</h1>
+                <p>Learn more about each titan shifter and more!</p>
+                <a href="#" class="btn">get started</a>
+            </div>
+            <div class="image">
+                <img src="aot/images/aot-main.png">
+            </div>
+        </section>
+    <!-- HOME SECTION ENDS HERE -->
+
+
+
+    <!-- GALLERY SECTION STARTS HERE -->
+    <section class="gallery" id="gallery">
+        <h1  class="heading"><span>Titan Shifters</span> <button id="btnall" class="heading">gallery </button></h1>
+        <div button id="btnall" class="toggle">Toggle all Shifters </button></div>
+        <div class="box-container"> 
+            <div class="box">
+                <img id="titan1" src="aot/images/aot-eren.jpg">
+                <div class="info">
+                    <h3 id="eren_h3">Eren</h3>
+                    <p id="eren_p">age : 22 <br> height : 183cm <br> affiliation : Yeagerists <br>Birthday : March 30th</p>
+                    <button id="btn1" class="btn" onclick="toggleTitan()">titan form</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img id="titan2" src="aot/images/aot-armin.jpg">
+                <div class="info">
+                    <h3 id="armin_h3">armin</h3>
+                    <p id="armin_p">age : 22 <br> height : 169cm <br> affiliation : Survey Corps <br>Birthday : November 3rd</p>
+                    <button id="btn2" class="btn" onclick="toggleTitan2()">titan form</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img id="titan3"src="aot/images/aot-annie.jpg">
+                <div class="info">
+                    <h3 id="annie_h3">annie</h3>
+                    <p id="annie_p">age : 23 <br> height : 153cm <br> affiliation : Marleyan military <br>Birthday : March 22nd</p>
+                    <button id="btn3" class="btn" onclick="toggleTitan3()">titan form</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img id="titan4"src="aot/images/aot-zeke.jpg">
+                <div class="info">
+                    <h3 id="zeke_h3">zeke</h3>
+                    <p id="zeke_p">age : 29 <br> height : 183cm <br> affiliation : Anti-Marleyan Volunteers <br>Birthday : August 1st</p>
+                    <button id="btn4" class="btn" onclick="toggleTitan4()">titan form</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img id="titan5"src="aot/images/aot-bertholdt.png">
+                <div class="info">
+                    <h3 id="bertholdt_h3">bertholdt</h3>
+                    <p id="bertholdt_p">age : 17 <br> height : 192cm <br> affiliation : Warrior <br>Birthday : December 30th</p>
+                    <button id="btn5" class="btn">titan form</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img id="titan6" src="aot/images/aot-reiner.jpg">
+                <div class="info">
+                    <h3 id="reiner_h3">reiner</h3>
+                    <p id="reiner_p">age : 24 <br> height : 188cm <br> affiliation : Marleyan military <br>Birthday : August 1st</p>
+                    <button id="btn6" class="btn">titan form</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img id="titan7"src="aot/images/aot-Pieck.png">
+                <div class="info">
+                    <h3 id="pieck_h3">Pieck</h3>
+                    <p id="pieck_p">age : 21 <br> height : 155cm <br> affiliation : Marleyan military <br> Birthday : Auguest 5th</p>
+                    <button id="btn7" class="btn">titan form</button>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img id="titan8"src="aot/images/aot-Tybur.png">
+                <div class="info">
+                    <h3 id="tyber_h3">Lara Tybur</h3>
+                    <p id="tyber_p">age : 25 <br> height : 155cm <br> affiliation : Nobility <br>Birthday : April 3rd </p>
+                    <button id="btn8" class="btn">titan form</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img id="titan9"src="aot/images/aot-porco.jpg">
+                <div class="info">
+                    <h3 id="porco_h3">porco</h3>
+                    <p id="porco_p">age : 19 <br> height : 175cm <br> affiliation : Marleyan military <br>Birthday : November 11th</p>
+                    <button id="btn9" class="btn">titan form</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <!-- GALLERY SECTION ENDS HERE -->
+
+    <!-- ABOUT SECTION STARTS HERE -->
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> Attack on Titan </h1>
+        <div class="row">
+            <div class="row">
+                <div class="image">
+                    <img src="aot/images/aotchibi.png">
+                </div>
+                <div class="content">
+                    <h3>Attack On Titan is amazing</h3>
+                    <p>is a Japanese manga series written and illustrated by Hajime Isayama. It is set in a world where humanity lives inside cities surrounded by three enormous walls that protect them from the gigantic man-eating humanoids referred to as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown and the death of his mother</p>
+                     <p>premiere : April 7, 2013 <br> Seasons : 4 <br> Awards : 4 including Anime of the Year, Best Antagonist, Best VA Performance, Best Opening Sequence<br>avaible on : Hulu, Netflix, Crunchyroll, funimation</p>
+                     <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION ENDS HERE -->
+
+
+    <!-- MOVIES SECTION STARTS HERE -->
+
+    <section class="movies" id="movies">
+        <h1 class="heading"><span>Attack on Titan</span> Seasons</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="aot/images/aot-season1.jpg">
+                <div class="info">
+                    <h3>Attack on titan season 1</h3>
+                    <span>action, Dark Fantasy, Post-apocalyptic</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The story follows the adventures of Eren Jaeger, his childhood friends Mikasa Ackerman and Armin Arlert, whose lives are changed forever after a Colossal Titan breaches the wall of their home town. Vowing revenge and to reclaim the world from the Titans, Eren and his friends 
+                        join the Scout Regiment, an elite group of soldiers who fight Titans.</p>
+                    <a href="https://www.crunchyroll.com/attack-on-titan/episode-1-to-you-2000-years-in-the-future-the-fall-of-zhiganshina-1-623251" class="btn">watch online</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="aot/images/aot-season2.jpg">
+                <div class="info">
+                    <h3>Attack on titan season 2</h3>
+                    <span>action, Dark Fantasy, Post-apocalyptic</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The season follows Eren Jaeger and his friends from the 104th Training Corps who have just begun to become full members of the Survey Corps. After fighting the Female Titan, Eren finds no time to rest as a horde of Titans 
+                    is approaching Wall Rose and the battle for humanity continues.</p>
+                    <a href="https://www.crunchyroll.com/attack-on-titan/episode-26-beast-titan-733245" class="btn">watch online</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="aot/images/aot-season3.jpg">
+                <div class="info">
+                    <h3>Attack on titan season 3</h3>
+                    <span>action, Dark Fantasy, Post-apocalyptic</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The season follows Eren and his fellow soldiers from the Survey Corps who are still fighting for their survival against the terrifying Titans. ... After being rescued from the Colossal and Armored Titans, all seems well for the soldiers, 
+                        until the government suddenly demands custody of Eren and Historia.</p>
+                    <a href="crunchyroll.com/attack-on-titan/episode-38-smoke-signal-775810" class="btn">watch online</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="aot/images/aot-season4.jpg">
+                <div class="info">
+                    <h3>Attack on titan season 4 part one</h3>
+                    <span>action, Dark Fantasy, Post-apocalyptic</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The season introduces Gabi Braun and Falco Grice, young Eldian Warrior candidates seeking to inherit Reiner's Armored Titan four years 
+                        after the failed mission to reclaim the Founding Titan</p>
+                    <a href="https://www.crunchyroll.com/attack-on-titan/episode-60-the-other-side-of-the-sea-799901" class="btn">watch online</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="aot/images/aot-season5.jpg">
+                <div class="info">
+                    <h3>Attack on titan season 4 part two</h3>
+                    <span>action, Dark Fantasy, Post-apocalyptic</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The biggest showdown as eren and his fellow soldiers will have to overcome the mass army from marley and those within the walls</p>
+                    <a href="#" class="btn">watch online</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="aot/images/aot-season6.jpg">
+                <div class="info">
+                    <h3>Attack on titan OVA</h3>
+                    <span>action, Dark Fantasy, Post-apocalyptic</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>During the 49th Exterior Scouting Mission, Section Commander Hange Zoë and Captain Levi encounter an Abnormal Titan which leads them to the site of Ilse Langnar's death. Ilse's notebook reveals that one year ago, she had encountered that same Titan which spoke to her, but it killed her afterward when she attempted to question it. The discovery convinces 
+                        Commander Erwin Smith to approve resuming attempts at capturing Titans.</p>
+                    <a href="https://www.crunchyroll.com/attack-on-titan/episode-1-ilses-notebook-memoirs-of-a-scout-regiment-member-822646" class="btn">watch online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MOVIES SECTION ENDS HERE -->
+
+    <!-- PRODUCT SECTION STARTS HERE -->
+    <section class="product" id="product">
+        <h1 class="heading"><span>marvelous</span> products</h1>
+        <div class="box-container">
+            <div class="box">
+                <h3>product 1</h3>
+                <img src="aot/images/aot-season1.jpg">
+                <div class="price">$30.00</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt dolorum officia quia culpa
+                 iusto perspiciatis ipsa amet molestias eos alias.</p>
+                 <a href="https://www.crunchyroll.com/attack-on-titan/episode-74-sole-salvation-809513" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <h3>product 2</h3>
+                <img src="aot/images/aot-season2.jpg">
+                <div class="price">$30.00</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt dolorum officia quia culpa
+                 iusto perspiciatis ipsa amet molestias eos alias.</p>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <h3>product 3</h3>
+                <img src="aot/images/aot-season3.jpg">
+                <div class="price">$30.00</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt dolorum officia quia culpa
+                 iusto perspiciatis ipsa amet molestias eos alias.</p>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <h3>product 4</h3>
+                <img src="aot/images/aot-season4.jpg">
+                <div class="price">$30.00</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt dolorum officia quia culpa
+                 iusto perspiciatis ipsa amet molestias eos alias.</p>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PRODUCT SECTION ENDS HERE -->
+
+    <!-- FOOTER SECTION STARTS HERE -->
+
+    <section class="footer" id="footer">
+        <div class="share">
+            <a href="#"><i class="fab fa-youtube"></i> youtube </a>
+            <a href="#"><i class="fab facebook-f"></i> facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+        </div>
+        <h1 class="credit"> created by <a href="#">@andresH</a> all rights reserved!</h1>
+    </section>
+    
+    <!-- FOOTER SECTION ENDS HERE -->
+
+
+
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="..//responsive-websites/marvel/js/marvel.js"></script>
+    <script src="aot/js/aot.js"></script>
+</body>
+
+</html>
