@@ -107,8 +107,8 @@ section {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(..//images/aot.jpg) no-repeat;
+  background:
+    url(..//images/bg.png) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
