@@ -216,4 +216,80 @@ $(document).ready(function(){
       titan4.src = "aot/images/aot-zeke.jpg";
       zeke_p.innerHTML = "age : 22 <br> height : 169cm <br> affiliation : Survey Corps <br>Birthday : November 3rd";
     }
+
+  } 
+
+  function toggleTitan5() {
+    if (bertholdt_h3.innerHTML === "bertholdt" && btn5.innerHTML ==="titan form") {
+      bertholdt_h3.innerHTML = "Colossus titan";
+      btn5.innerHTML = "human form";
+      titan5.src = "aot/images/aot-bertholdt-titan.png";
+      bertholdt_p.innerHTML = "age : 2200 <br> height : 200M <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    } else {
+      bertholdt_h3.innerHTML = "bertholdt";
+      btn5.innerHTML = "titan form";
+      titan5.src = "aot/images/aot-bertholdt.png";
+      bertholdt_p.innerHTML = "age : 22 <br> height : 169cm <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    }
+
+  } 
+
+  function toggleTitan6() {
+    if (reiner_h3.innerHTML === "reiner" && btn6.innerHTML ==="titan form") {
+      reiner_h3.innerHTML = "Armor titan";
+      btn6.innerHTML = "human form";
+      titan6.src = "aot/images/aot-reiner-titan.jpg";
+      reiner_p.innerHTML = "age : 2200 <br> height : 200M <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    } else {
+      reiner_h3.innerHTML = "reiner";
+      btn6.innerHTML = "titan form";
+      titan6.src = "aot/images/aot-reiner.jpg";
+      reiner_p.innerHTML = "age : 22 <br> height : 169cm <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    }
+
+  } 
+
+  function toggleTitan7() {
+    if (pieck_h3.innerHTML === "pieck" && btn7.innerHTML ==="titan form") {
+      pieck_h3.innerHTML = "Cart titan";
+      btn7.innerHTML = "human form";
+      titan7.src = "aot/images/aot-pieck-titan.png";
+      pieck_p.innerHTML = "age : 2200 <br> height : 200M <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    } else {
+      pieck_h3.innerHTML = "pieck";
+      btn7.innerHTML = "titan form";
+      titan7.src = "aot/images/aot-pieck.png";
+      pieck_p.innerHTML = "age : 22 <br> height : 169cm <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    }
+
+  } 
+
+  function toggleTitan8() {
+    if (tybur_h3.innerHTML === "Lara Tybur" && btn8.innerHTML ==="titan form") {
+      tybur_h3.innerHTML = "War Hammer titan";
+      btn8.innerHTML = "human form";
+      titan8.src = "aot/images/aot-tybur-titan.png";
+      tybur_p.innerHTML = "age : 2200 <br> height : 200M <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    } else {
+      tybur_h3.innerHTML = "Lara Tybur";
+      btn8.innerHTML = "titan form";
+      titan8.src = "aot/images/aot-tybur.png";
+      tybur_p.innerHTML = "age : 22 <br> height : 169cm <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    }
+
+  } 
+
+  function toggleTitan9() {
+    if (porco_h3.innerHTML === "porco" && btn9.innerHTML ==="titan form") {
+      porco_h3.innerHTML = " Jaw Titan";
+      btn9.innerHTML = "human form";
+      titan9.src = "aot/images/aot-porco-titan.png";
+      porco_p.innerHTML = "age : 2200 <br> height : 200M <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    } else {
+      porco_h3.innerHTML = "porco";
+      btn9.innerHTML = "titan form";
+      titan9.src = "aot/images/aot-porco.jpg";
+      porco_p.innerHTML = "age : 22 <br> height : 169cm <br> affiliation : Survey Corps <br>Birthday : November 3rd";
+    }
+
   } 
