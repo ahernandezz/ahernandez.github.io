@@ -466,4 +466,13 @@ section {
   .product .box-container .box {
     width: 100%;
   }
+  .about.row.h3{
+  
+    
+  }
+}
+@media (max-width: 500px) {
+  html{
+    font-size: 50%;
+  }
 }
