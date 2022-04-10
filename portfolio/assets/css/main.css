@@ -3755,13 +3755,17 @@ input, select, textarea {
 
 /* Main */
 
+
 	#main {
-		background-color: #ffffff;
+	
+		background: #fff;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		/* color: white; */
+		/* background-color: rgb(30, 27, 27); */
 	}
 
 		#main > * {
