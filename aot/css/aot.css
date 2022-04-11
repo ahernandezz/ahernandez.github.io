@@ -27,11 +27,17 @@ html {
 body {
   overflow-x: hidden;
 }
-html::-webkit-scrollbar-track {
-  background: #000;
+
+html::-webkit-scrollbar{
+  width:1.3rem;
 }
-html::-webkit-scrollbar-thumb {
-  background: var(--red);
+
+html::-webkit-scrollbar-track{
+  background:#000;
+}
+
+html::-webkit-scrollbar-thumb{
+  background:var(--red);
 }
 header {
   position: fixed;
@@ -391,6 +397,20 @@ section {
   color: var(--red);
 }
 /* END OF FOOTER CSS */
+
+
+.scroll-top{
+  position: fixed;
+  bottom:7.5rem; right:2rem;
+  z-index: 1000;
+  display: none;
+}
+
+.scroll-top img{
+  height:7rem;
+  filter:drop-shadow(0 .3rem .5rem rgba(0,0,0,.2));
+}
+
 /*  */
 /*  */
 /*  */
