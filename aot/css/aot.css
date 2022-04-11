@@ -173,14 +173,14 @@ section {
   flex-wrap: wrap;
 }
 .gallery .box-container .box {
-  flex:1 1 30rem;
-  height:40rem;
+  flex: 1 1 30rem;
+  height: 40rem;
   overflow: hidden;
-  background:#333;
+
   text-align: center;
-  padding:2rem;
-  margin:2rem;
-  border-radius: .5rem;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
   position: relative;
 }
 .gallery .box-container .box img {
@@ -190,13 +190,14 @@ section {
 }
 .gallery .box-container .box .info {
   position: absolute;
-  bottom:-120%; left:50%;
+  bottom: -120%;
+  left: 50%;
   transform: translateX(-50%);
-  width:80%;
-  background:#fff;
-  padding:2rem;
-  border:.3rem solid var(--red);
-  border-radius: .5rem;
+  width: 80%;
+  background: #fff;
+  padding: 2rem;
+  border: 0.3rem solid var(--red);
+  border-radius: 0.5rem;
 }
 .gallery .box-container .box:hover .info {
   bottom: 2rem;
