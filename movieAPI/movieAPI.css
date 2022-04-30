@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(27, 100, 225));
+
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+header a{
+    color: orangered;
+    text-decoration: none;
+    margin-left: 5.5%;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid orangered;
+    border-radius: 50px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.search::placeholder {
+    color: white;
+}
+
+.search:focus {
+    background-color: #22254b;
+    outline: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    background-color: #000000;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px orangered;
+    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    width: 250px;
+    
+}
+
+.movie img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.movie-info {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.movie-info h3 {
+    margin: 0;
+    cursor: pointer;
+    
+}
+
+.movie-info span {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(27, 100, 225));
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.movie-info span.green {
+    color: rgb(39, 189, 39);
+}
+
+.movie-info span.orange {
+    color: yellow;
+}
+
+.movie-info span.red {
+    color: rgb(189, 42, 42);
+}
+
+.date-info {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+
+}
+
+.date-info h3 {
+    margin: 0;
+}
+
+.date-info span {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(27, 100, 225));
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.overview {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    max-height: 100%;
+    overflow: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.overview h3 {
+    margin-top: 0;
+    cursor: pointer;
+
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+    cursor: pointer;
+
+}
+
+.home-bttn{
+   left: 0;
+    right: 150px;
+}
+.release_data{
+    position: absolute;
+    color: red;
+}
+
+.card-image {
+    height: 50vh;
+    background-image: linear-gradient(red, yellow, green);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(21, 21, 21);
+    opacity: 0.95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: orangered;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    transition: transform 100ms;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0px 1px 2px darkred;
+}
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #222;
+    text-align: center;
+    border-radius: 1rem;
+}
+.card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.card-subtitle {
+    font-weight: lighter;
+    color: #666;
+    margin-top: 5px;
+}
+.movie-link{
+    text-decoration: none;
+    color: #22254b;
+    font-size: 1.5rem;
+
+}
+.tagline{
+    color: orangered;
+    font-size: 1rem;
+    font-weight: bold;
+}
