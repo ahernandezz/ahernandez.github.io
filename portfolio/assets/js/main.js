@@ -272,10 +272,10 @@ if(localStorage.getItem("theme") == null){
 let localData = localStorage.getItem("theme");
 
 if(localData == "light"){
-	icon.src="/light-dark-theme/moon.png";
+	icon.src="portfolio/images/moon.png";
 	document.body.classList.remove("dark-theme");
 } else if(localData == "dark"){
-	icon.src="/light-dark-theme/sun.png";
+	icon.src="portfolio/images/sun.png";
 	document.body.classList.add("dark-theme");
 }
 
@@ -283,10 +283,10 @@ if(localData == "light"){
 icon.onclick = function(){
 	document.body.classList.toggle("dark-theme");
 	if(document.body.classList.contains("dark-theme")){
-		icon.src="/light-dark-theme/sun.png";
+		icon.src="portfolio/images/sun.png";
 		localStorage.setItem("theme","dark");
 	} else{
-		icon.src="/light-dark-theme/moon.png";
+		icon.src="portfolio/images/moon.png";
 		localStorage.setItem("theme","light");
 
 	}
