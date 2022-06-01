@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .card_layout{
+    border: 2px solid #000000;
+    background: #ffffff;
+    margin: 1rem auto;
+    padding: 10rem;
+    width: 100%;
+    font-size: var(--common-fontS_m);
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.img{
+display: flex;
+padding-right: 5px;
+position: relative;
+align-items: flex-start;
+}
+
+.card-title{
+padding: 5px;
+border-top: 1px solid yellow;
+min-width: 100%;
+box-sizing: border-box;
+font-size: 1.4rem;
+font-weight: bold;
+color: yellow;
+} */
+.card_layout{
+    background: #ffffff;
+    padding: 10px 10px 40px;
+    margin: 0rem 10%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-bottom-color: #2e4362;
+    border-width: 1px 4px;
+
+}
+
+.card_img img{
+    width: 20%;
+}
+.card_info{
+    width: 60%;
+    word-wrap: break-word;
+}   
+.search{
+    text-align: center;
+    margin: 1rem;
+    background: #022c53;
+}
+.container button{
+	width: 150px;
+	height: 50px;
+    margin: 2rem;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 0 black,
+		-5px -5px 0 black,
+		-5px 5px 0 black,
+		5px -5px 0 black;
+	transition: 500ms ease-in-out;
+}
+button:hover {
+	box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+}
+.container .search input{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 1rem;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.search{
+    box-sizing: border-box;
+    border-style: solid;
+    border-bottom-color: #2e4362;
+    border-width: 1px 4px;
+    margin: 1rem 10%;
+}
+.search_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+::placeholder { 
+    font-size: 1.5rem;
+    
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: #467491;
+    height: 2.5rem;
+    margin-bottom: .2rem;
+
+}
+.filter h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.html{
+    font-size: 44%;
+}
